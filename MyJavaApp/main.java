@@ -27,6 +27,8 @@ public class button extends Application {
             }
         };
 
+        btn5.setOnAction(ev4);
+
         win4.show();
     }
 
@@ -53,6 +55,8 @@ public class button extends Application {
                 index2.delete();
             }
         }
+
+        btn6.setOnAction(ev5);
 
         win5.show();
     }

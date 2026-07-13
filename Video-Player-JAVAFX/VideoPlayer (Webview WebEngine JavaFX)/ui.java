@@ -60,6 +60,6 @@ public class classnameaudio {
     }
 
     public static void funcnameaudio(String[] args) {
-        launch();
+        launch(args);
     }
 }

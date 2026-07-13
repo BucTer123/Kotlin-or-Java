@@ -60,6 +60,6 @@ public class classmainuiwidget as Application {
     }
 
     public void funcstartuiwidget(String[] args) {
-        launch();
+        launch(args);
     }
 }

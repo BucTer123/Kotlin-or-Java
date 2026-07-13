@@ -1,4 +1,4 @@
 fun main() {
-  button.main():
-  exit(0);
+  button.main()
+  exit(0)
 }

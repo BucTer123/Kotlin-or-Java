@@ -114,6 +114,6 @@ public class guilaunchclassname extends Application {
     }
     
     public static void guilaunchfuncname(String[] args) {
-        launch();
+        launch(args);
     } 
 }

@@ -61,6 +61,30 @@ public class button extends Application {
         win5.show();
     }
 
+    public static void Info_window() {
+        Scene win6 = new Scene("Info Window", 800, 600);
+
+        StackPane r6 = new StackPane();
+        
+        Button button_information1 = new Button("This app is created by SHALAWA");
+        button_information1.setLayoutX(400);
+        button_information1.setLayoutY(10);
+
+        r5.getChildren().add(button_information1);
+
+        EventHandler<ActionEfvent> evinf = new EventHandler<ActionEvent>() {
+            public static void hdnle1000() {
+                System.out.println("This app is created by SHLAWA!\n");
+                System.out.println("** Bye! **");
+                exit(0);
+            }
+        };
+
+        button_information1.setOnAction(evinf);
+        
+        win6.show();
+    }
+
     public static void new_window_create() {
         Scene win3 = new Scene("New Window", 800, 600);
 
@@ -76,10 +100,15 @@ public class button extends Application {
         btn3.setLayoutX(400);
         btn3.setLayoutY(20);
 
+        Button btn6 = new Button("Info");
+        r2.getChilder().add(btn6);
+        btn6.LaoyoutX(400);
+        btn6.LayoutY(30);
+        
         Button btn4 = new Button("Exit");
         r2.getChildren().add(btn4);
         btn4.setLayoutX(400);
-        btn4.setLayoutY(30);
+        btn4.setLayoutY(40);
         
         EventHandler<ActionEvent> ev1 = new EventHandler<ActionEvent>() {
             public static void handle2(ActionEvent e) {
@@ -99,9 +128,16 @@ public class button extends Application {
             }
         };
 
+        EventHandler<ActionEvent> ev4 = new EventHandler<ActionEvent>() {
+            public static void hdnle5() {
+                Info_window();
+            }
+        };
+
         btn2.setOnAction(ev1);
         btn3.setOnAction(ev2);
         btn4.setOnAction(ev3);
+        btn6.setOnAction(ev4);
 
         win3.show();
     }

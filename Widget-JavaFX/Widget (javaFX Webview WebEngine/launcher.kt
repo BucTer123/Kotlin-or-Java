@@ -5,7 +5,8 @@ fun main() {
 
     if (c == "y" || c == "Y") {
         println("Starting!")
-        classmainuiwidget.funcstartuiwidget();
+        classmainuiwidget.main()
+        classmainuiwidget.funcstartuiwidget()
     } else {
         println("Bye!")
     }

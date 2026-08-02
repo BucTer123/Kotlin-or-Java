@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 
-public class sys throws IOExpection {
+public class jw_sys throws IOExpection {
 	public static void create_directory(String name_directory_create) {
 	 	File dir = new File(name_directory_create);
 	}

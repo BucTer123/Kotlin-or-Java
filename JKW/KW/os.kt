@@ -1,4 +1,4 @@
-class os {
+class kw_os {
 	fun ext(Int status) { exit(status) }
 	fun ret(Boolean return_status) { return return_status }
 	fun create_directory(String name_directory_create) { File.mkdir(name_directory_create); }

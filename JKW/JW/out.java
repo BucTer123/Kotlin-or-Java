@@ -1,4 +1,4 @@
-public class out {
+public class jw_out {
 	 public static void echoln(String text_echoln) {
 	 	System.out.println(text_echoln)
 	 }

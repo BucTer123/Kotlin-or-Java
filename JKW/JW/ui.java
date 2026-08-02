@@ -1,7 +1,7 @@
 import javafx.application.Application;
 import javafx.scene.Scene;
 
-public static void jw_new { 
+public static void jw_ui { 
 	public static void Application(int screen_width, int screen_height, String name_window) {
 		Scene window_root = new Scene(screen_width, screen_height, name_window);
 		window_root.show();

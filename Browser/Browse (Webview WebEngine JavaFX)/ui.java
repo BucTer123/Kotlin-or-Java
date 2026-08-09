@@ -10,7 +10,7 @@ public class secondmainclassname {
     public static void notmain(Stage stage) {
         String html= """
         <!DOCTYPE html>
-        <html lang="en">
+        <html>
         <head>
             <meta charset="UTF-8" >
             <title>UI!</title>

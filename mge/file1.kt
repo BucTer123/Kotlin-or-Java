@@ -131,50 +131,50 @@ public class mygameengine {
             println("New Zealand\n")
             println("Nicaragua\n")
             println("Niger\n")
-Nigeria
-North Korea
-North Macedonia
-Norway
-Oman
-Pakistan
-Palau
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Philippines
-Poland
-Portugal
-Qatar
-Romania
-Russia
-Rwanda
-Saint Kitts and Nevis
-Saint Lucia
-Saint Vincent and the Grenadines
-Samoa
-San Marino
-Sao Tome and Principe
-Saudi Arabia
-Senegal
-Serbia
-Seychelles
-Sierra Leone
-Singapore
-Slovakia
-Slovenia
-Solomon Islands
-Somalia
-South Africa
-South Korea
-South Sudan
-Spain
-Sri Lanka
-Sudan
-Suriname
-Sweden
-Switzerland
-Syria
+            println("Nigeria\n")
+            println("North Korea\n")
+            println("North Macedonia\n")
+            println("Norway\n")
+            println("Oman\n")
+            println("Pakistan\n")
+            println("Palau\n")
+            println("Panama\n")
+            println("Papua New Guinea\n")
+            println("Paraguay\n")
+            println("Peru\n")
+            println("Philippines\n")
+            println("Poland\n")
+            println("Portugal\n")
+            println("Qatar\n")
+            println("Romania\n")
+            println("Russia\n")
+            println("Rwanda\n")
+            println("Saint Kitts and Nevis\n")
+            println("Saint Lucia\n")
+            println("Saint Vincent and the Grenadines\n")
+            println("Samoa\n")
+            println("San Marino\n")
+            println("Sao Tome and Principe\n")
+            println("Saudi Arabia\n")
+            println("Senegal\n")
+            println("Serbia\n")
+            println("Seychelles\n")
+            println("Sierra Leone\n")
+            println("Singapore\n")
+            println("Slovakia\n")
+            println("Slovenia\n")
+            println("Solomon Islands\n")
+            println("Somalia\n")
+            println("South Africa\n")
+            println("South Korea\n")
+            println("South Sudan\n")
+            println("Spain\n")
+            println("Sri Lanka\n")
+            println("Sudan\n")
+            println("Suriname\n")
+            println("Sweden\n")
+            println("Switzerland\n")
+            println("Syria\n")
 Taiwan
 Tajikistan
 Tanzania

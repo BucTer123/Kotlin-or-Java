@@ -1,10 +1,11 @@
 public class countries_list {
     fun albania() {
         Int time_albania = 0
+        Int money_albania = 300
         while (true) {
             time_albania += 1
+            money_albania += 3
         }
-        Int money_albania = 800
         Int army_albania = 30000
         Int economy_albania = 300
         Boolean country_albania_europe = true 

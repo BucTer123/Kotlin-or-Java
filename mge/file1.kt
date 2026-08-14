@@ -175,14 +175,14 @@ public class mygameengine {
             println("Sweden\n")
             println("Switzerland\n")
             println("Syria\n")
-Taiwan
-Tajikistan
-Tanzania
-Thailand
-Timor-Leste
-Togo
-Tonga
-Zimbabwe
+            println("Taiwan\n")
+            println("Tajikistan\n")
+            println("Tanzania\n")
+            println("Thailand\n")
+            println("Timor-Leste\n")
+            println("Togo\n")
+            println("Tonga\n")
+            println("Zimbabwe\n")
         }
     }
 }

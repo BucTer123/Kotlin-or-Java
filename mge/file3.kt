@@ -36,9 +36,29 @@ public class countries_list {
             
             if (choicecountry_albaniaatack == "War >> List") {
                 mygameengine.output_list_countries("TRUE")
+            } else {
+                String atacked = myganeengine.choicecountry(choicecountry_albaniaatack)
+                String army = mygameengine.getArmy(atacked)
+
+                if (army <= army_albania) {
+                    mygameengine.output_console("You lose!")
+                    army_albania = 0
+                } else {
+                    mygameengine.output_console("You won!");
+                    army = 0
+                }
             }
         }
     }
-    fun afganistan()
+    fun afganistan() {
+        Int time_afganistan = 0
+        Int money_afganistan = 10
+
+        while (true) {
+            time_afganistan += 1
+            money_afganistan += 1
+        }
+        
+    }
     fun andorra()
 }

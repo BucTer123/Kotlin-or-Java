@@ -37,7 +37,7 @@ public class countries_list {
             if (choicecountry_albaniaatack == "War >> List") {
                 mygameengine.output_list_countries("TRUE")
             } else {
-                String atacked = myganeengine.choicecountry(choicecountry_albaniaatack)
+                String atacked = choicecountry(choicecountry_albaniaatack);
                 String army = mygameengine.getArmy(atacked)
 
                 if (army <= army_albania) {

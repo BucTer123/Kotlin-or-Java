@@ -22,4 +22,9 @@ public static void jw_ui {
 			exit(0);
 		} 
 	}
+	public static void Input(int location_input1, int localtion_input2, String placeholder) {
+		TextField input = new TextField(placeholder);
+		input.setLayoutX(location_input1);
+		input.setLayoutY(location_input2);
+	}
 }

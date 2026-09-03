@@ -131,12 +131,12 @@ public class button extends Application {
         Button btn6 = new Button("Info");
         r2.getChilder().add(btn6);
         btn6.LaoyoutX(400);
-        btn6.LayoutY(40);
+        btn6.LayoutY(50);
         
         Button btn4 = new Button("Exit");
         r2.getChildren().add(btn4);
         btn4.setLayoutX(400);
-        btn4.setLayoutY(50);
+        btn4.setLayoutY(60);
         
         EventHandler<ActionEvent> ev1 = new EventHandler<ActionEvent>() {
             public static void handle2(ActionEvent e) {
@@ -172,6 +172,7 @@ public class button extends Application {
         btn3.setOnAction(ev2);
         btn4.setOnAction(ev3);
         btn6.setOnAction(ev4);
+        btn67.setOnAction(ev671);
 
         win3.show();
     }
@@ -199,6 +200,8 @@ public class button extends Application {
         };
 
         btn.setOnAction(ev);
+
+        s.show();
     }
 
     public static void main(String args[]) {
